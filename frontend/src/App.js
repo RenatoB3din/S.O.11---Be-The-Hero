@@ -1,9 +1,15 @@
 import React from 'react';
 
+import './global.css';
+
+import Routes from './routes';
+//JSX(Javascript/XML)
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <Routes />
   );
 }
 
 export default App;
+
