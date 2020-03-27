@@ -13,7 +13,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-input, button, textearea {
+input, button, textarea {
     font: 400 18px Roboto, sans-serif;
 }
 
@@ -28,6 +28,18 @@ form input {
     border: 1px solid #dcdce6;
     border-radius: 6px;
     padding: 0 24px;
+}
+
+form textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 140px;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 6px;
+    padding: 16px 24px;
+    line-height: 24px;
 }
 
 .button {
